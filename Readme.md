@@ -96,6 +96,8 @@ int n;
 > Terminal log:
 
 > PLS ENTER NUMBER: 14
+>
+> 
 > Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello 
 
 ![Screenshot 2025-07-01 194858](https://github.com/user-attachments/assets/0456e0fa-6bc5-42f3-aae5-cd9c0d764022)
@@ -124,16 +126,27 @@ printf("SEVEN\n");
 ```
 > Terminal log:
 
+
 > 1
+> 
 > 2
+> 
 > 3
+> 
 > FOUR
+> 
 > 5
+> 
 > 6
+> 
 > SEVEN
+> 
 > 8
+> 
 > 9
+> 
 > 10
+> 
 
 ![image (9)](https://github.com/user-attachments/assets/293477ab-0ad7-4775-b8fa-1f4b23944bf7)
 
@@ -171,28 +184,51 @@ printf("SEVEN\n");
 > Terminal log:
 
 > PLS ENTER NUMBER (func2): 1
+> 
 > 1
+> 
 > PLS ENTER NUMBER (func2): 1
+> 
 > Too low, Try again
+> 
 > PLS ENTER NUMBER (func2): 1
+> 
 > Too low, Try again
+> 
 > PLS ENTER NUMBER (func2): 2
+> 
 > 2
+> 
 > PLS ENTER NUMBER (func2): 2
+> 
 > Too low, Try again
+> 
 > PLS ENTER NUMBER (func2): 1
+> 
 > Too low, Try again
+> 
 > PLS ENTER NUMBER (func2): 1
+> 
 > Too low, Try again
+> 
 > PLS ENTER NUMBER (func2): 1
+> 
 > Too low, Try again
+> 
 > PLS ENTER NUMBER (func2): 2
+> 
 > Too low, Try again
+> 
 > PLS ENTER NUMBER (func2): 10
+> 
 > 10
+> 
 > PLS ENTER NUMBER (func2): 9
+> 
 > Too low, Try again
+> 
 > PLS ENTER NUMBER (func2): 0
+> 
 > Bye
 
 
@@ -215,14 +251,23 @@ while (x<50){
 
 > Terminal log:
 
+
 > 5
+> 
 > 10
+> 
 > 15
+> 
 > 20
+> 
 > 25
+> 
 > 30
+> 
 > 35
+> 
 > 40
+> 
 > 45
 
 ![unnamed](https://github.com/user-attachments/assets/0d3a7ef9-13f1-475d-b7e0-ad04b026004c)
