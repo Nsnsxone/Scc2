@@ -1,5 +1,5 @@
 #include<stdio.h>
-
+//fixed
 int main() {
    
   char text[] = "supakrid boonyong 4/3 No.32";
@@ -26,7 +26,7 @@ int e;
     }
 
 int j;
-printf("\nDo While loop:\n");
+printf("\ndo While loop:\n");
     j = 1;
     do {
         printf("%d. ",j );
@@ -41,13 +41,13 @@ printf("\nDo While loop:\n");
     printf("PLS ENTER NUMBER: ");
     scanf("%d", &n); 
     while ( n >=1 ) {
-        printf("HELLO");
-        printf("   %d\n",n);
+        printf("Hello ");
+       // printf(" %d");
         n--;
 
     }
 // 4 and 7
-
+printf("\n");
      int h;
      h = 1;
     do {
@@ -64,18 +64,19 @@ printf("SEVEN\n");
         h++;
         
     } while (h <= 10);
-
+printf("\n\n");
 int x;
 x = 5;
 while (x<50){
-    x = x +5;
+   
     printf("%d\n",x);
+     x = x +5;
 }
 
  // array max1000
  int arr[1000];    
   // index array
-    int E = 0;       
+    int E = 1;       
     int m;
     int running = 1;
     int previous = 0;
@@ -87,7 +88,7 @@ while (x<50){
         if (m == 0) {
             printf("Bye\n");
             break;
-        } else if (previous == m) {
+        } else if (previous >= m) {
             printf("Too low, Try again\n");
         } else {
             printf("   %d\n", m);
